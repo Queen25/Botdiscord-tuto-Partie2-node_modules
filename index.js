@@ -101,4 +101,4 @@ bot.on("message", msg => {
           }
         });
 
-bot.login('NTA2NzgzMjE1MTkzODE3MTA5.DtyFYQ.uS91QUbOuoAT9Ix3AGDPHbJzVco')
+bot.login('NTA2NzgzMjE1MTkzODE3MTA5.DuB9XA.OQAKdAEOlJeEcSKpdhdAQw6RjcM')
